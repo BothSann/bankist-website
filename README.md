@@ -1,9 +1,5 @@
 # 🌟 Bankist Website Project
 
-This repository contains the code and resources for the **Bankist Website**, a minimalist digital banking concept. This project is inspired by the [Bankist Demo](https://bankist-dom.netlify.app/) and focuses on creating a modern, user-friendly interface for a fictional bank.
-
----
-
 ## 📝 Overview
 
 The **Bankist Website** is a showcase of a fictional digital banking platform designed for simplicity and efficiency. It demonstrates essential features of an online banking application while providing a modern, minimalist design. This project is built as a learning exercise in web development and responsive design.
