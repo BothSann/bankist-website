@@ -36,6 +36,8 @@ To run the project locally:
    ```bash
    git clone https://github.com/BothSann/bankist-app-js.git
 
+---
+
 ## 👨‍💻 Built By
 
 This project was built by **THANN SOPHEAKBOTH** as part of an online learning course by [Jonas Schmedtmann](https://codingheroes.io/).
