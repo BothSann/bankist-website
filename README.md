@@ -8,7 +8,6 @@ The **Bankist Website** is a showcase of a fictional digital banking platform de
 
 ## ✨ Features
 
-- 🖥️ **Responsive Design**: Optimized for both desktop and mobile devices.
 - 🧭 **Smooth Scrolling**: Navigation with smooth scrolling effects for a seamless user experience.
 - 🛠️ **Interactive UI**: Includes features such as modal windows, tabs, and dropdown menus.
 - 🔑 **User Authentication (Demo)**: Simulates a basic login system.
