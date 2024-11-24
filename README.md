@@ -21,8 +21,6 @@ The **Bankist Website** is a showcase of a fictional digital banking platform de
 - ⚙️ **HTML5**: For structuring the web pages.
 - 🎨 **CSS3**: For styling and responsive design.
 - 🧩 **JavaScript (ES6)**: For interactivity and dynamic content.
-- 🌀 **Git**: For version control.
-- 🌐 **Netlify**: For hosting the live demo.
 
 ---
 
