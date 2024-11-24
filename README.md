@@ -40,4 +40,6 @@ This project was built by **THANN SOPHEAKBOTH** as part of an online learning co
 
 ---
 
-© Copyright by Jonas Schmedtmann. This project is for educational purposes only and cannot be used for commercial purposes.
+## ©️ Copyright By
+
+© Copyright by **Jonas Schmedtmann**. This project is for educational purposes only and cannot be used for commercial purposes.
