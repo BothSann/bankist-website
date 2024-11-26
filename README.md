@@ -2,7 +2,7 @@
 
 ## 📝 Overview
 
-The **Bankist Website** is a showcase of a fictional digital banking platform designed for simplicity and efficiency. It demonstrates essential features of an online banking application while providing a modern, minimalist design. This project is built as a learning exercise in web development and responsive design.
+The **Bankist Website** is a showcase of a fictional digital banking platform designed for simplicity and efficiency. It demonstrates essential features of an online banking application while providing a modern, minimalist design. This project is built as a learning exercise in web development.
 
 ---
 
