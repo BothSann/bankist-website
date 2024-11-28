@@ -16,6 +16,9 @@ The **Bankist Website** is a showcase of a fictional digital banking platform de
 - 🛠️ **Interactive UI**: Includes features such as modal windows, tabs, and dropdown menus.
 - 🔑 **User Authentication (Demo)**: Simulates a basic login system.
 - 💸 **Account Actions**: Simulated features like transfers, loans, and account closure.
+- 🖼️ **Lazy Loading Images**: Improves performance by loading images only when they are in the viewport.
+- 🎢 **Image Slider**: Interactive image slider with navigation buttons and dots.
+
 
 ---
 
@@ -34,6 +37,12 @@ To run the project locally:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/BothSann/bankist-website.git
+   ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd bankist-website
+   ```
+3. **Open `index.html` in your browser** to view the project.
 
 ---
 
