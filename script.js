@@ -155,31 +155,31 @@ allSections.forEach(function (section) {
 
 ///////////////////////////////////////
 // Lazy loading images
+// This selects all image elements which have a data-src attribute. This is a CUSTOM data attribute
 const imgTargets = document.querySelectorAll('img[data-src]');
-// console.log(imgTargets);
+const loadImg = (entries, observer) => {
+  entries.forEach(entry => {
+    // console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.src = entry.target.dataset.src;
 
-const loadImg = function (entries, observer) {
-  const [entry] = entries;
-  // console.log(entry);
-
-  if (!entry.isIntersecting) return;
-
-  // Replace src with data src
-  entry.target.src = entry.target.dataset.src;
-
-  entry.target.addEventListener('load', function () {
-    entry.target.classList.remove('lazy-img');
+      entry.target.addEventListener('load', function () {
+        this.classList.remove('lazy-img');
+      });
+      observer.unobserve(entry.target);
+    }
   });
-  observer.unobserve(entry.target);
 };
-
 const imgObserver = new IntersectionObserver(loadImg, {
   root: null,
   threshold: 0,
-  rootMargin: '200px',
+  // We need to load this image BEFORE we actually reach it, so we don't create a visible lag. To acieve this, we add a 200px margin to the bottom, virtually "extending the viewport 200px down", so that it is intersected earlier. [Check if it works on network tab]
+  // We want EXACTLY 200px, not some percentage, that's why we use the margin here, and NOT the treshold
+  rootMargin: '0px 0px -200px 0px',
 });
 
-imgTargets.forEach(function (img) {
+// Observer multiple targets!
+imgTargets.forEach(img => {
   imgObserver.observe(img);
 });
 
