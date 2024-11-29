@@ -4,6 +4,12 @@
 
 The **Bankist Website** is a showcase of a fictional digital banking platform designed for simplicity and efficiency. It demonstrates essential features of an online banking application while providing a modern, minimalist design. This project is built as a learning exercise in web development.
 
+## 🌐 Live Demo
+
+Check out the live version of the website at: [bankist](https://bothsann.github.io/bankist-website/)
+
+---
+
 ## 🖼️ Screenshot
 
 ![Screenshot](screenshot.PNG)
